@@ -16,19 +16,15 @@ A lightweight **character-level SLM (Statistical Language Model) trainer** imple
 
 ## Project Structure
 
-slm-trainer/
-│
-├─ data/                # Training corpora (plain text)
-├─ models/              # Saved model checkpoints
-├─ src/                 # Core code for training and evaluation
-│  ├─ trainer.py        # Scripts for model training
-│  ├─ tokenizer.py      # Scripts for tokenizing text into characters or sequences
-│  ├─ prompt.py         # Scripts for generating text from the model
-│  ├─ learner.py        # Scripts for defining and running training loops
-│  ├─ model.py          # Scripts defining the SLM architecture and utilities
-│
-├─ README.md            # Project documentation
-
+- **data/** – Training corpora (plain text)  
+- **models/** – Saved model checkpoints  
+- **src/** – Core code for training and evaluation  
+  - **trainer.py** – Scripts for model training  
+  - **tokenizer.py** – Scripts for tokenizing text into characters or sequences  
+  - **prompt.py** – Scripts for generating text from the model  
+  - **learner.py** – Scripts for defining and running training loops  
+  - **model.py** – Scripts defining the SLM architecture and utilities  
+- **README.md** – Project documentation  
 ---
 
 ## Installation
