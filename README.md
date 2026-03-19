@@ -66,7 +66,3 @@ python src/trainer.py --input data/corpus.txt --output models/slm_model.pkl --se
 
 **Priyanshu Dave**  
 ---
-
-## 📄 License
-
-MIT License – see `LICENSE` file for details.
