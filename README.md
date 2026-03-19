@@ -17,7 +17,7 @@ A lightweight **character-level SLM (Statistical Language Model) trainer** imple
 ## Project Structure
 
 - **data/** – Training corpora (plain text)  
-- **models/** – Saved model checkpoints  
+- **models/** – Saved model  
 - **src/** – Core code for training and evaluation  
   - **trainer.py** – Scripts for model training  
   - **tokenizer.py** – Scripts for tokenizing text into characters or sequences  
