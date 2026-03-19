@@ -7,7 +7,6 @@ A lightweight **character-level SLM (Statistical Language Model) trainer** imple
 ## Features
 
 - First the model trained a character-level language model from a plain text corpus, now upgraded to token-level training.
-- Supports basic n-gram modeling and probability estimation.
 - Demonstrates the limitations of character-level SLMs for generating coherent text.
 - Modular design suitable for experimentation with different parameters.
 ---
